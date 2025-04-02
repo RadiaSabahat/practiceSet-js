@@ -1,3 +1,5 @@
+// PRACTICING FUNCTIONS 
+
 function rectangleAarea(width, height) {
   return width * height;
 }
@@ -36,3 +38,14 @@ function reversingString(str){
 return str.split("").reverse().join("");
 }
 console.log(reversingString("radiaSabahat"))
+
+
+// PRACTICING ARRAY METHODS 
+const userName = ['AudioListener', 'sufeyan', 'faiza', 'mubeen' , 'mishi'];
+const tranformtobjects = userName.map((item)=>({val : item}));
+console.log(tranformtobjects);
+
+//2
+const nums = [10, 20, 55, 40, 70];
+const firstGreaterThan50 = nums.find(num => num > 50);
+console.log(firstGreaterThan50); 
